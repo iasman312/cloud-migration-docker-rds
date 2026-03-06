@@ -1,7 +1,17 @@
-venv/
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+terraform/.terraform.tfstate.lock.info
+
+# Python
 __pycache__/
 *.pyc
+
+# Mac
+.DS_Store
+
+# Environment files
 .env
-.env.*
-.aws/
-AWSCLIV2.pkg
